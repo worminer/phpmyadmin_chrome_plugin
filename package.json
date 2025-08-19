@@ -1,0 +1,29 @@
+{
+  "name": "phpmyadmin_chrome_plugin",
+  "version": "1.0.0",
+  "description": "Chrome extension that adds direct export functionality to phpMyAdmin SQL pages",
+  "main": "content.js",
+  "scripts": {
+    "build": "echo 'No build step required for Chrome extension'",
+    "test": "echo 'No tests configured yet'",
+    "package": "zip -r phpmyadmin-export-helper.zip . -x '*.git*' '*.DS_Store' '*.zip' 'README.md' 'package.json'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "phpmyadmin",
+    "export",
+    "sql",
+    "csv",
+    "database"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/worminer/phpmyadmin_chrome_plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/worminer/phpmyadmin_chrome_plugin/issues"
+  },
+  "homepage": "https://github.com/worminer/phpmyadmin_chrome_plugin#readme"
+}
